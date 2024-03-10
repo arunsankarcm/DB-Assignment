@@ -52,7 +52,6 @@ const Product = mongoose.model('Product', productSchema);
 const ProductInventory = mongoose.model('ProductInventory', productInventorySchema);
 const Discount = mongoose.model('Discount', discountSchema);
 
-// Export the models
 module.exports = {
   ProductCategory,
   Product,
